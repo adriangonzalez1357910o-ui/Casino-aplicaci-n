@@ -11,7 +11,7 @@ from kivy.uix.scrollview import ScrollView
 class CasinoState:
     def __init__(self):
         self.fichas = 0
-        self.banco = 50
+        self.banco = 100
         self.deuda = 0
 
 casino = CasinoState()

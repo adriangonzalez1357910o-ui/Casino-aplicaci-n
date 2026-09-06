@@ -1,6 +1,6 @@
 [app]
-title = MiApp
-package.name = miapp
+title = CasinoApp
+package.name = casinoapp
 package.domain = org.test
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
@@ -11,8 +11,8 @@ fullscreen = 0
 android.permissions = INTERNET
 android.api = 33
 android.minapi = 21
-android.ndk = 25b
-android.archs = arm64-v8a, armeabi-v7a
+android.ndk_api = 21
+android.archs = arm64-v8a
 p4a.branch = master
 
 [buildozer]
